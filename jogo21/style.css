@@ -1,0 +1,17 @@
+nav img {
+    width: 60px;
+    height: 50px;
+}
+
+.card-body {
+    height: 190px;
+}
+
+.card-body img {
+    position: relative;
+    left: 70px;
+    margin-left: -50px;
+}
+.infos {
+    display: flex;
+}
