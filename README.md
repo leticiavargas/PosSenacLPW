@@ -19,13 +19,13 @@
 ## Descrição dos projetos
 
 ### Lista de Compras
-Lista de compras desenvolvida utilizando front em Bootstrap template [].
+Frontend padrão do exercício da disciplina, utilizando template **Cosmo** by [Bootswatch](https://bootswatch.com/). Projeto to-do list, para cadastro de itens utilizando localStorage para salvar os itens. 
 
 ### Agendamento em quadra esportiva 
-Frontend padrão do exercício da disciplina
+Frontend padrão do exercício da disciplina.
 
 ### Jogo21 - BackJack
-Frontend utiliza template [] em bootstrap
+Frontend padrão do exercício da disciplina, utilizando template **Sketchy** by [Bootswatch](https://bootswatch.com/). 
 
 ### Exemplo uso FileReader
 .
