@@ -13,7 +13,7 @@
  - [x] [Jogo Salada de Frutas](https://leticiavargas.github.io/PosSenacLPW/saladaFrutas/)
  - [x] [Revenda de carros Herbie](https://leticiavargas.github.io/PosSenacLPW/herbie/)
  - [ ] CRUD API Livre - The Cat API
- - [ ] [Jogo de apostas - Peso da Melancia](https://leticiavargas.github.io/PosSenacLPW/weight/dist/)
+ - [x] [Jogo de apostas - Peso da Melancia](https://leticiavargas.github.io/PosSenacLPW/weight/dist/)
  - [x] [Cadastro de carros de uma revenda](https://leticiavargas.github.io/PosSenacLPW/cars/dist/) 
 
 ## Descrição dos projetos
@@ -31,16 +31,18 @@ Frontend utiliza template [] em bootstrap
 .
 
 ### Jogo Salada de Frutas
-Frontend padrão do exercício da disciplina
+Frontend padrão do exercício da disciplina. 
+Objetivo do jogo: usuário deve listar as frutas de acordo com as quantidades sorteadas pelo sistema. As frutas devem ser adicionadas de forma randomica, ou seja, não podem existir frutas iguais colocadas lado a lado. 
 
 ### Revenda de carros Herbie
-Frontend padrão do exercício da disciplina
+Frontend padrão do exercício da disciplina. 
 
 ### CRUD API Livre: The Cat API
 Frontend utiliza tamplate [] em bootstrap e API The Cat API
 
 ### Jogo de apostas - Peso da Melancia
-Frontend padrão do exercíco da disciplina
+Frontend padrão do exercíco da disciplina. 
+Objetivo do jogo: Adivinhar o peso de uma melancia. São adicionadas as apostas de cada pessoa (nome e peso), ao clicar em **Vencedor** o sistema pergunta qual o peso da melancia e realiza a revelação da aposta vencedora.
 
 ### Cadastro de carros de uma revenda
- Frontend padrão do exercício da disciplina.
+ Frontend padrão do exercício da disciplina. 
