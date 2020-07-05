@@ -7,13 +7,12 @@ const inPeso = document.querySelector('#inPeso');
 const outApostas = document.querySelector('#outApostas');
 const btCancelar = document.querySelector('#btCancelar');
 const btLimpar = document.querySelector('#btLimpar');
+const btVencedor = document.querySelector('#btVencedor');
 
 let listaAposta = new ApostaLista();
 
 document.querySelector('#btApostar').addEventListener('click', () => {
     const aposta = new Aposta(inNome.value, inPeso.value);
-    console.log(aposta);
-
     outApostas.appendChild(novaApostaHtml(aposta));
 
     listaAposta.novaAposta(aposta);
@@ -32,15 +31,18 @@ outApostas.addEventListener('click', (event) => {
 
 btCancelar.addEventListener('click', () => {
     const dados = listaAposta.get();
-    console.log(dados);
+    
     if(dados.filter(x => !x.ativo).length == 0){
-       console.log('dentro do if');
-        alert('Selecione a aposta a ser canceladas ¯\\_(ツ)_/¯');
+        alert('Selecione a aposta a ser cancelada ¯\\_(ツ)_/¯');
         return;
+    } else {
+        Array.from(outApostas.children)
+             .forEach(li => {
+                if(li.classList.contains('inativo'))
+                    li.remove();
+            });
+            listaAposta.removeInativos();
     }
-    dados.filter(x => x.ativo)
-    let test = listaAposta.removerInativos;
-    console.log(test);
 });
 
 btLimpar.addEventListener('click', () => { 
@@ -52,3 +54,14 @@ btLimpar.addEventListener('click', () => {
     }
 });
 
+btVencedor.addEventListener('click', (event) => {
+    if (listaAposta.get().length > 1) {
+      const peso = prompt('Informe o peso(em gramas) da melancia... ');
+      alert("Verificando ganhador .... ");
+      const listaVencedor = listaAposta.ordenaVencedores(peso);
+      const vencedor = listaVencedor[0];
+      alert(`E o vencedor é... ${vencedor.inNome}`);
+    } else {
+      alert('Ainda não temos apostas suficientes...');
+    }
+  });

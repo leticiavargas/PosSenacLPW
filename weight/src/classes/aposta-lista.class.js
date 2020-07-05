@@ -21,8 +21,15 @@ export default class ApostaLista {
     }
 
     removeInativos(){
-        this.apostas = this.apostas.filter(x => x.ativo);
-        console.log("this apostas", this.apostas);
+        this.apostas = this.apostas.filter(aposta => aposta.ativo);
         return this.apostas;
+    }
+
+    ordenaVencedores(peso) {        
+        this.apostas.forEach((aposta)=>{
+           aposta.margemErro = (aposta.inPeso - peso);
+        });
+       
+        return this.apostas.sort((aposta1, aposta2) => (aposta1.margemErro - aposta2.margemErro));
     }
 }
