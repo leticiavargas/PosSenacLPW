@@ -1,0 +1,15 @@
+img {
+  max-width: 100%;
+}
+
+.fas {
+  cursor: pointer;
+}
+
+.stared {
+  background-color: oldlace;
+}
+
+td i {
+  margin-right: 10px;
+}
