@@ -3,7 +3,7 @@
  Todos os projetos foram desenvolvidos em JavaScript, Bootstrap e HTML. As atividades finais ainda utilizam webpack e Firebase.
 
  ## Exercícios de aula
- - [x] [Lista de Compras](https://leticiavargas.github.io/PosSenacLPW/compras/compras.html)
+ - [x] [Lista de Compras](https://leticiavargas.github.io/PosSenacLPW/compras/)
  - [x] [Agendamento em quadra esportiva](https://leticiavargas.github.io/PosSenacLPW/quadra/quadra.html)
  - [x] [Jogo 21 - BlackJack](https://leticiavargas.github.io/PosSenacLPW/jogo21/jogo.html)
  - [x] [Exemplo de como utilizar o FileReader](https://leticiavargas.github.io/PosSenacLPW/fileReader/form.html)
