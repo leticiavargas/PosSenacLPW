@@ -1,12 +1,17 @@
+const catImage = document.querySelector('.catImage');
 
 let response ='';
-const url = 'https://api.thecatapi.com/v1/images/search?limit=5';
+const url = 'https://api.thecatapi.com/v1/images/search';
 
 window.addEventListener("load", () => {
    
     console.log("loading");
     
-    getAllKitten().then(data => console.log(data));
+    getAllKitten().then(data => {
+        
+        //console.log(data);
+        addImage(data);
+    });
     
 });
 
@@ -20,4 +25,12 @@ async function getAllKitten(){
                         });
     let data = await response.json();
     return data;
+}
+
+const addImage = (catInfo) => {
+    console.log(catInfo);
+    const imgCat = document.createElement('img');
+    imgCat.src = catInfo[0].url;
+    catImage.appendChild(imgCat);
+
 }
