@@ -1,5 +1,18 @@
-.catImage {
+.catContainer {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center
+    justify-content: flex-end;
+}
+
+.catImage {
+    max-width: 50%;
+}
+.catImage img {
+    width: 100%;
+}
+
+.favorite {
+    font-size: 25px;
+    cursor: pointer;
 }
