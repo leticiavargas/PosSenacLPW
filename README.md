@@ -12,7 +12,7 @@
  ## Atividades Avaliativas
  - [x] [Jogo Salada de Frutas](https://leticiavargas.github.io/PosSenacLPW/saladaFrutas/)
  - [x] [Revenda de carros Herbie](https://leticiavargas.github.io/PosSenacLPW/herbie/)
- - [ ] CRUD API Livre - The Cat API
+ - [x] [CRUD API Livre - The Cat API](https://leticiavargas.github.io/PosSenacLPW/KittyAPI/)
  - [x] [Jogo de apostas - Peso da Melancia](https://leticiavargas.github.io/PosSenacLPW/weight/dist/)
  - [x] [Cadastro de carros de uma revenda](https://leticiavargas.github.io/PosSenacLPW/cars/dist/) 
 
@@ -38,7 +38,7 @@ Objetivo do jogo: usuário deve listar as frutas de acordo com as quantidades so
 Frontend padrão do exercício da disciplina. 
 
 ### CRUD API Livre: The Cat API
-Frontend utiliza tamplate [] em bootstrap e API The Cat API
+Frontend utiliza tamplate **Minty** em bootstrap e API [The Cat API](https://thecatapi.com/). Mostra fotos randomicas de gatinhos.
 
 ### Jogo de apostas - Peso da Melancia
 Frontend padrão do exercíco da disciplina. 
